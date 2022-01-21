@@ -17,7 +17,7 @@
     display: block;
 }
 
-
+drive when there is ambulance
  .carousel-item img{
     width:100%;
     max-width:600px;
@@ -27,7 +27,58 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    position: absolute;
+    position: absolut.carousel{
+        max-width: 600px;
+        position: relative;
+    }drive when there is ambulance
+    
+     .carousel-item,
+     carousel-item-hidden
+    {
+        max-width: 600px;
+        display: none
+    }
+    
+    
+    
+    
+     .carousel-item-visible{
+        display: block;
+    }
+    
+    
+     .carousel-item img{
+        width:100%;
+        max-width:600px;
+        height:auto
+    }drive when there is ambulance
+    .carousel-actions{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        position: absolute;
+        top:50%
+    }
+    .carousel-actions button{
+        border-radius:50px ;
+        background-color: white;
+        border: 0;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        width:40px;
+        height:40px;
+    }
+    
+     #carousel-button-pre{
+        margin-left: 20px;
+    }
+    drive when there is ambulance
+    #carousel-button-next{
+        margin-right: 20px;
+    }
+    
+    e;
     top:50%
 }
 .carousel-actions button{
@@ -49,6 +100,3 @@
     margin-right: 20px;
 }
 
-.carousel.carousel-item-hidden{
-    display: none;
-}
